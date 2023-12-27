@@ -1,0 +1,63 @@
+.layout {
+  display: flex;
+
+  .sidebar {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border-right: 1px solid #f6f6f6;
+
+    .detail {
+      height: 100%;
+      position: relative;
+
+      .title {
+        text-align: center;
+      }
+
+      .user-profile {
+        border: 1px solid darkgray;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .name {
+          margin-left: 20px;
+        }
+      }
+
+      .list-menu {
+        padding: 10px;
+        border-left: 3px solid transparent;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &.active {
+          color: blue;
+          border-color: mediumblue;
+          background: lightblue;
+        }
+
+        &:hover {
+          color: blue;
+        }
+      }
+
+      .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+      }
+    }
+  }
+
+  .render-app {
+    width: 100%;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}

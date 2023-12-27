@@ -1,0 +1,43 @@
+.detail {
+  .title {
+    margin-bottom: 10px;
+  }
+  
+  .box-movie {
+    position: relative;
+
+    .icon-favorite {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      cursor: pointer;
+      color: white;
+      z-index: 10;
+
+      &.active {
+        color: red;
+      }
+    }
+
+    .img-movie {
+      width: 100%;
+    }
+  }
+  .detail-movie {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    .secound {
+      margin-left: 5px;
+      font-weight: normal;
+      font-size: 16px;
+    }
+  }
+}
+
+// ! OVERRIDE
+.g-text {
+  &.mb-2 {
+    margin-bottom: 8px;
+  }
+}

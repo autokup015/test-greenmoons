@@ -1,0 +1,77 @@
+@import "./assets//css/custom.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.g-container {
+  height: 100vh;
+}
+
+// ! BTN
+
+.g-btn {
+  width: 100%;
+}
+
+// ! TEXT
+
+.g-text {
+  &.gray {
+    color: #a6a6a6;
+  }
+
+  &.underline {
+    text-decoration: underline;
+  }
+
+  &.pointer {
+    cursor: pointer;
+  }
+
+  &.red {
+    color: red;
+  }
+
+  &.max-w {
+    width: max-content;
+  }
+
+  &.font-14 {
+    font-size: 14px;
+  }
+
+  &.text-left {
+    text-align: left;
+  }
+}
+
+// ! INPUT
+
+.g-form {
+  .input {
+    position: relative;
+
+    .icon {
+      position: absolute;
+      cursor: pointer;
+      right: 5px;
+      top: 16px;
+    }
+  }
+}

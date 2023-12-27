@@ -1,0 +1,11 @@
+.no-page {
+  height: 100vh;
+
+  .box-nopage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

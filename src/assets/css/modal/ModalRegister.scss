@@ -1,0 +1,27 @@
+.footer {
+  margin-top: 20px;
+  text-align: center;
+
+  .btn-register {
+    max-width: 150px;
+  }
+
+  .have-account {
+    margin: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    transition: 0.4s;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+// ! OVERRIDE
+
+.g-text {
+  &.red {
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,42 @@
+.login {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card-login {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #6f6f6f;
+    min-width: 400px;
+    min-height: 300px;
+
+    // .title {
+    //   text-align: center;
+    // }
+
+    .detail {
+      margin-top: 10px;
+      min-height: 200px;
+    }
+
+    .footer {
+      .btn-login {
+        max-width: 150px;
+      }
+
+      .register {
+        margin: auto;
+        margin-top: 10px;
+        font-size: 12px;
+        transition: 0.4s;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
